@@ -62,7 +62,19 @@
             </div>
         )
 
+---
 
+---
 
+## React fragment and wrapper
 
+> How does wrapper component actually works.
 
+- its a component that returns props.children
+- we use this wrapper instead of div
+
+> I found that we can also use react fragments and it works same as wrapper
+
+> Does it add an extra element in the DOM
+
+- NO wrapper don't add any extra element in DOM
