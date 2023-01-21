@@ -6,7 +6,7 @@ import classes from "./ErrorModal.module.css";
 
 const ErrorModal = ({ title, details, closeBtnName = "OK", onErrorClose }) => {
   return (
-    <div>
+    <>
       <div className={classes.backdrop} onClick={onErrorClose}>
         <Card className={classes.modal}>
           <header className={classes.header}>
@@ -20,7 +20,7 @@ const ErrorModal = ({ title, details, closeBtnName = "OK", onErrorClose }) => {
           </footer>
         </Card>
       </div>
-    </div>
+    </>
   );
 };
 
