@@ -1,0 +1,30 @@
+form.adduser {
+  display: flex;
+  flex-direction: column;
+}
+
+form.adduser > input,
+label {
+  padding: 0.5rem 0.25rem;
+  font-size: large;
+  margin: 0.2rem;
+}
+
+form.adduser > label {
+  font-weight: 600;
+}
+form.adduser > input {
+  outline: none;
+}
+
+form.adduser > button {
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: large;
+  /* font-weight: 600; */
+}
+
+.addUser-wrap {
+  margin-top: 2rem;
+  background-color: whitesmoke;
+}

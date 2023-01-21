@@ -1,0 +1,17 @@
+.userListCard {
+  margin-top: 2rem;
+}
+
+.userListCard > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.userListCard > ul > li {
+  padding: 0.5rem;
+  font-weight: bold;
+  margin: 5px;
+  border: 1px solid cyan;
+  background: whitesmoke;
+}
