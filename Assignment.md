@@ -78,3 +78,36 @@
 > Does it add an extra element in the DOM
 
 - NO wrapper don't add any extra element in DOM
+
+---
+
+---
+
+## React fragments
+
+> How does react fragment work.
+
+- its like wrapper provided by react
+- we can wrap adjecent element in react fragment
+
+        <React.Fragment>
+            <h1>Hello</h1>
+            <p> js </p>
+        </React.Fragment>
+
+- other syntax , but may not supported by very old version
+
+        <>
+            <h1>Hello</h1>
+            <p> js </p>
+        </>
+
+> Is it similar to wrapper components.
+
+- yes its basically same thing
+
+> Does it add an extra element in the DOM
+
+- no
+
+
