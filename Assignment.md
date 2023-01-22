@@ -110,4 +110,56 @@
 
 - no
 
+## React Portals
 
+> What is the problem that we are trying to solve with portals?
+
+- example without portals :-
+
+        return <>
+                <My-modal />
+                <InputForm />
+             </>
+
+
+        the following will render on dom as (assume)
+
+            <section>
+                <h2> some other content </h2>
+                <div class="my-modal">
+                    modal content
+                </div>
+                <form>
+                    form content
+                </form>
+            </section>
+
+- semantically and from a 'clean code ' prespective, having a nested moadls is not a good practice . Its an overlay to entire page (similar for side-drawers , other dialogs , etc )
+
+- with Portals we can have modals render somewhere else on dom rather than nesting and Without changing React component structure
+- ex -
+
+             <section>
+                <h2> some other content </h2>
+                <div class="my-modal">
+                    modal content
+                </div>
+                <form>
+                    form content
+                </form>
+            </section>
+
+> What features does React- DOM library get us.What does adapter mean?
+
+- it connct react with web
+- it provide many api to work with dom
+- render , create root , createPortal, etc are some of API
+
+- adpter is a translation layer that connects two different interfaces together.
+- in case of react its react-dom
+- react-dom is lobrary that conncts dom ui with rect api
+
+> What does React.createPortal() take as input. What is the second argument?
+
+- first is component we want to render as Portal
+- other is element container where we want component to render
