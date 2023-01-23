@@ -175,3 +175,11 @@
 - but it may intruduce some bugs or complexity in code
 
 - in ref we have less code than states
+
+## What are controlled and uncontrolled components ?
+
+- controlled components are where we use react state to save or feed value
+
+- uncontrolled components are where we use ref instead of react's state to do same thing
+
+- uncontrolled component is not controlled by react or to be exact its value is not controlled by react instead by using native DOM api
