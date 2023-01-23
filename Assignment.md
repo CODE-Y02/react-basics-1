@@ -163,3 +163,15 @@
 
 - first is component we want to render as Portal
 - other is element container where we want component to render
+
+## REFS
+
+- Refs provide a way to access DOM nodes or React elements created in the render method
+
+### What is the advantage you get using refs?
+
+- when ever we want to take value and use it not update it we must prefer ref as its clean code
+- with ref we can manupulate dom directly in react (rare practice)
+- but it may intruduce some bugs or complexity in code
+
+- in ref we have less code than states
